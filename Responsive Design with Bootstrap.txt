@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>       //to add bootstrap at the top of  html code
+
+class="img-responsive"   // will make the width exactly that of ur screen's
+class= text-center 
+class = btn   //inline button
+class= btn-default 
+class = btn-block      //the button takes the whole width , u can have both button classes in 1 elemnt.
+class= btn-primary // will give the button some collor, u need the first 2 classes above to use it //blue
+class= btn-info   //teal
+class = btn-danger  // notify users that they will perform a destructive action //red
+class = col-xs-4  //column extra small , 4 columns.   
+class = col-md-3 // medium   //u put these inside a div tag.
+class= row    //put all buttons in a row, in the same line
+class = text-primary  // will give it text a blue ish color. 
+class=form-control            //allow an input box to use the best width possible maybe?
+class="container-fluid"                      // will contain the width of an element? im not sure wtf this is 
+class=well          //can create a visual sense of depth
+class= target   //doesnt do anything, is just so we can locate with jquery
+
+<span class=":">dsdas</span>   //u can use a class on anything inside span,.
+
+div class=row
+   div class=col-xs-8       //2 elements in 1 line, sharing the width
+      div class=col-xs-4 
+	  
+	  
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>   //top opf code, this is 'Font Awesome'
+
+
+<i class="fa fa-thumbs-up"> Like></i>                   // icon tag, from fontAwesome ^ , and one of it's classes.
+<i class="fa fa-info-circle">
+<i class="fa fa-trash">
+<i class="fa fa-paper-plane">
+
+

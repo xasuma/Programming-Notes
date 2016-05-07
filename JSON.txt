@@ -1,0 +1,54 @@
+JSON object ex:
+var ourMusic = [
+  {
+    "artist": "Daft Punk",
+    "title": "Homework",
+    "release_year": 1997,
+    "formats": [ 
+      "CD", 
+      "Cassette", 
+      "LP" ],
+    "gold": true
+  },
+  {
+  //you can have another album..
+  }
+];
+
+
+Nested JSON objects ex: 
+var ourStorage = {
+  "desk": {
+    "drawer": "stapler"
+  },
+  "cabinet": {
+    "top drawer": { 
+      "folder1": "a file",
+      "folder2": "secrets"
+    },
+    "bottom drawer": "soda"
+  }
+}
+ourStorage.cabinet["top drawer"].folder2;  // "secrets"
+ourStorage.desk.drawer; // "stapler"
+
+
+
+Nested arrays in JSON objects ex:
+var ourPets = { 
+  "cats": [
+    "Meowzer",
+    "Fluffy",
+    "Kit-Cat"
+  ],
+  "dogs": [
+    "Spot",
+    "Bowser",
+    "Frankie"
+  ]
+};
+ourPets.cats[1]; // "Fluffy"
+ourPets.dogs[0]; // "Spot"
+
+
+

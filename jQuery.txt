@@ -1,0 +1,61 @@
+<script>
+  $(document).ready(function() {                                    //this is where I put jquery code. (top of file) // document ready function 
+                                                                                       //all code inside here will only run once the page has loaded
+  });
+</script>
+
+
+
+$    = all functions start with a dollar sign operator
+
+Classes: animated, bounce, shake, fadeOut, 
+
+$("button").addClass("animated bounce");               =    makes buttons bounce. (1 class=animated, other class=bounce)
+ $(".well")    == will select div elements with the class "well"
+  $("#target3")       == this is targeting an ID, therefore we use the #. 
+  
+  $("#target2").removeClass("btn-default");                    //you can also remove a class from an element. even if the class is not from jquery
+  $("#target1").css("color", "red");                                   //change css from jquery
+  $("button").prop("disabled", true);                                    // prop=properties.       this will disable a button 
+  $("#target4").html("<i>#target4</i>");                               //this lets me add additional tags to an html element, like change it to italics. 
+  $("#target4").remove();                                                    // will remove the html element "|target4" entirely.
+  $("#target4").appendTo("#left-well");                          // will move target4 from where it is, to the  "left-well" id. 
+  
+   $("#target5").clone().appendTo("#left-well");            // will clone target5 to the leftwell. .// this is called function chaining in jquery
+   $("#target1").parent().css("background-color", "red");           //will target the parent tag of #target1 , and will give it the background-color red. 
+$("#right-well").children().css("color", "orange");                         // will target the children. and change color to orange.
+
+$(".target:nth-child(2)").addClass("animated bounce");   //will target the 2nd element with the class target. and make it bounce
+$(".target:odd").addClass("animated shake");             //will target the odd number of the elemets with the class "target" . , you can also do , even. starts at zero. 
+
+$("body").addClass("animated hinge");    // target the whole body . , hinge is a cool effect. 
+
+
+----------------------------------youtube tutorial series---------------------------------------------------------
+
+//wait for the page to load, and then run javascript /jquery stuff.
+<script>
+	$(document).ready(function() {
+	
+		$("#imanID").hide(300);  //this will hide the thing you are targeting in 300 ms.
+		$("#imanID").hide(300).show(300);  // will hide it and then bring it back. 
+		$("#imanID").slideUp(300).delay(500).slideDown(300);
+		$("#imanID").fadeToggle(300).fadeToggle(300); //will fade away and comeback. 
+		
+		$("#imanID").css({
+			color:'red', 
+			fontWeight: 'bold'
+		}); //u can change the css with it. 
+		
+		$("#imanID").html('imAnewName');  //this will replace the whole html for this text. 
+		
+		$("#imanID").on('click',function(){
+			$('#id2').slideToggle(200);
+		});
+		
+		$("#imanID").on('mouseover',function(){
+			$('#id2').slideToggle(200);
+		});
+	
+	});
+</script>

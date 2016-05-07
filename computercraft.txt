@@ -1,0 +1,62 @@
+dir = shows the directories (folders)
+edit "name" = creates or opens a program called "name"
+help term =  all the writing commands
+term.write("hello world")
+print("hello world") = this one will go down a line afterwards.
+term.clear()  = will clear the screen whenever this line runs. 
+term.setCursorPos(1,1) = sets the cursor position to 1,1. 
+
+--  = makes the line a comment   (--this is a comment)
+Variables
+	local gorgoro = makes a local variable called 'gorgoro'
+	global gorgoro = makes a global variable called 'gorgoro'
+	gorgoro = 5
+	print(gorgoro +1)  = gorgoro will still be 5 after this. 
+	gorgoro = "hello"
+	local oso = true
+	print(not oso)     // this will give me the opposite of true.
+	print(var1.." "..var2)   // concatenate 2 string variables.
+	
+	
+Input
+term.write("Please enter a value: ")
+	local info
+	info = read()   //this will read the input from the user
+	
+
+pastebin put "nameofprogram" //this will upload the program to pastebin
+
+
+Turtles
+	help turtle //show me the commands.
+	refuel  //will use 1 item to refuel
+	refuel all 
+	turtle.refuel()
+	turtle.getFuelLevel()
+	turtle.dig()
+	turtle.place()
+	turtle.attack()  //up down
+	turtle.detect()
+	turtle.compare()
+	turtle.compareTo(slotnumber)                  // selected slot compared with slotnumber
+	turtle.drop([quanity])                                //if in front of a chest, they will go into it. 
+	turtle.suck()                                            // will suck any items floating in front of it,.
+	turtle.select()                                         // selects the slotnumebr
+	turtle.getItemCount(slonumber)
+	turtle.turnLeft()
+	turtle.turnRight()
+	turtle.down()
+	turtle.up()
+	turtle.back()
+	turtle.forward()
+	
+	
+if x==5 then 
+	bla...
+else
+	blah..
+end
+
+if x>5 and y>5 then	
+if x>5 or y>5 then	
+	

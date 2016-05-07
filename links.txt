@@ -1,0 +1,66 @@
+how to use navbar = http://getbootstrap.com/components/#navbar
+
+https://www.interviewcake.com   //interview questions
+
+https://codefights.com/          // timed code competition
+http://www.codewars.com/
+
+
+https://www.hackerrank.com/                 //solve challenges
+https://coderbyte.com/
+https://www.codeeval.com/
+
+
+
+https://www.wayup.com/member/jobs-listing   //job find
+https://www.upwork.com/
+
+
+file:///G:/Downloads%202016/Dev%20Bootcamp%20Curriculum.pdf    //devbootcamp curriculum
+
+https://www.codeschool.com/
+
+http://www.theodinproject.com/courses?ref=home
+
+http://nodeschool.io/
+
+
+http://tryruby.org/levels/1/challenges/0            //ruby DO FIRST 
+http://railsforzombies.org/
+
+https://repl.it/                      //online editor
+
+
+http://www.codenewbie.org/blogs/getting-starting-with-making                          ///////// hardware
+
+
+*learn:
+	coffescript
+	sass
+	ember.js
+	pivotal tracker
+	github
+	ruby on rails
+	SQL
+	asp.net
+	xml
+	(agile) (software/System) Development Life Cycle
+	java 
+	ruby on rails
+	node.js
+	JSON api
+	
+	
+*YOutube Playlists
+Html CSS Beginner	=	https://www.youtube.com/playlist?list=PL41lfR-6DnOruqMacTfff1zrEcqtmm7Fv
+JavasCript Beginner = https://www.youtube.com/playlist?list=PL41lfR-6DnOrwYi5d824q9-Y6z3JdSgQa
+									https://www.youtube.com/playlist?list=PLLnpHn493BHEPsHK41rZRFDTGnPo2BNVw
+Git & Github 			=	https://www.youtube.com/playlist?list=PLfdtiltiRHWFEbt9V04NrbmksLV4Pdf3j
+MySQL					=  https://www.youtube.com/playlist?list=PLfdtiltiRHWEw4-kRrh1ZZy_3OcQxTn7P
+JQuery						=	https://www.youtube.com/playlist?list=PL8251C8D1DEFB1454
+									https://www.youtube.com/playlist?list=PL41lfR-6DnOoH7Q9zdHNCQx--XnsIXpdw
+
+Bootstrap					=	https://www.youtube.com/playlist?list=PL41lfR-6DnOovY0t3nBg8Zb6aqm_H70mR
+Node.js					=	https://www.youtube.com/playlist?list=PLoYCgNOIyGAACzU6GliHJDp4kmOw3NFsh
+React.js 					=	https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b
+Sublime					=	https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP

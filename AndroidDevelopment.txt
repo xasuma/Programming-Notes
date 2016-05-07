@@ -1,0 +1,30 @@
+https://www.youtube.com/watch?v=dGyWkDqmjIA
+
+
+shift + shift = search everywherte
+avd = andropid virtual device
+	ram= 1gb
+	vm heap = 256 mb
+	internal storage = 200mb
+	enable keyboard input*
+	
+	
+	
+	**cmd commands**
+	android list avd = shows a list of ur devices
+	emulator -avd "Devicename" = will open the virtual device.(connected to that one cmd)
+	adb devices = (android debug bridge)- shows a list of devicces.
+	adb reboot = it will reboot a phisical phone connected to the computer.
+	monitor  = will open the device monitor,. , see the devices logcat outpouts. 
+	android list target = shows u ur installed apis. (see the id number)
+	android create project --target "idNumber" --name MyAndroidApp --path ./Myandroidappproject -- activity MainActivity -- package com.exampple.android.commandlineproject   = this will create a full new project from the command prompt. 
+		(needds to be imported once u open android studio
+		
+
+androidmanifest.xml = launcher icon, label, theme, definitions of the app activities. 
+res = graphical stuff for the app. 
+ app>src>  inside main , you can create an "assets" folder, and include any files you want ur app to be distribuited with. 
+
+	
+	
+	

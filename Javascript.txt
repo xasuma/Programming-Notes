@@ -1,0 +1,472 @@
+//single line comment
+
+/*multi line 
+comment*/
+
+data types:  undefined, null, Boolean, string, symbol, number, and object.
+
+var whatever; //this is a variable (cannot start with a number)
+var a = 10;
+var myDecimal = 5.7;
+var sum = 10 + 0;
+var remainder = 8%2;
+b+= 9;
+
+Example: 
+			var c = "I am a String";
+			c = c + " String!";
+			
+Inside a string use a back-backslash before a quote to make the code ignore it.  "ben said \"hey you \". "
+or
+ 'ben said "hey you ". ' 	
+ 
+Things that can be scaped inside a string. 
+ Code	Output
+\'	 		single quote
+\"			double quote
+\\			backslash
+\n			new line
+\r			carriage return
+\t			tab
+\b			backspace
+\f			form feed
+
+var myStr = "This is the start. " + "This is the end." ;                    //concatenate strings
+
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence";                                     //another way to concatenate
+
+
+
+Ex: 
+var someAdjective= "cool";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+
+
+Ex: 
+var myName = "Ben";
+var myStr = "My name is " + myName + " and I am swell!";
+
+Ex; count number of characters.
+var lastNameLength = 0;
+var lastName = "Lovelace";
+lastNameLength = lastName.length;
+
+Ex:
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+firstLetterOfLastName = lastName[0];               //will give you the character #0 , which is L. 
+
+Ex:
+var lastName = "Lovelace";
+var lastLetterOfLastName = lastName[lastName.length - 1];              //will give you the last character. 
+
+Ex:
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+var result="";
+return result;
+}
+wordBlanks("dog", "big", "ran", "quickly");
+
+
+var array = ["John", 23];                // 2 elements in an array separated by a coma.
+
+var ourArray = [["the universe", 42], ["everything", 101010]];                  // two arrays nested. 
+
+Array ex:
+var ourArray = [1,2,3];
+var ourData = ourArray[0];    // the first element in array.
+
+
+Arrays are mutable; (strings are not)
+var ourArray = [3,2,1];
+ourArray[0] = 1; // equals [1,2,1]
+
+Nested arrays ex:
+var arr = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [[10,11,12], 13, 14]
+];
+arr[0]; // equals [1,2,3]
+arr[1][2]; // equals 6
+arr[3][0][1]; // equals 11
+
+
+Push() example:  (adds an element at the end of the array)
+var arr = [1,2,3];
+arr.push(4);
+// arr is now [1,2,3,4]\
+
+
+
+Pop() example: 
+var oneDown = [1, 4, 6].pop();
+the variable oneDown now holds the value 6 and the array becomes [1, 4].
+
+ex 2: 
+var ourArray = [1,2,3];
+var removedFromOurArray = ourArray.pop();               //just removing the last element
+
+
+shift() removes the first element of an array, unlike pop() which deletes the last one. 
+
+unshift() adds an element to the beginning of the array
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(); // ourArray now equals ["J", "cat"]
+ourArray.unshift("Happy"); 
+// ourArray now equals ["Happy", "J", "cat"]
+
+
+Function ex:
+function functionName() {
+  console.log("Hello World");
+}
+ourFunction();  //calling it 
+
+
+Function with parameters (inputs) example:
+function testFun(param1, param2) {
+  console.log(param1, param2);
+}
+testFun("Hello", "World"); //call it 
+
+
+ console.log(param1 + param2);  //ex.
+ 
+ 
+ variables created inside a function have local scope. 
+ 
+ 
+ Ex: 
+ function plusThree(num) {
+  return num + 3;
+}
+var answer = plusThree(5); // 8
+
+
+Ex 2: 
+function timesFive(arg){
+  return arg * 5;
+}
+
+
+Function with IF and test example: 
+function test (myCondition) {
+  if (myCondition) {
+     return "It was true";
+  }
+  return "It was false";
+}
+test(true);  // returns "It was true"
+test(false); // returns "It was false"
+
+
+Ex: strict equality 
+3 === 3   // true
+3 === '3' // false
+3 == '3' // true
+
+Ex: strict inequality 
+3 !== 3 // false 
+3 !== '3' // true 
+
+Logical and
+if (num > 5 && num < 10) {
+  return "Yes";
+}
+
+Logical or 
+if (num > 10 || num < 5) {
+  return "No";
+}
+return "Yes";
+
+
+Switch ex: 
+  switch(val) {
+    case 1:
+        answer= "alpha";
+        break;
+    case 2:
+        answer= "beta";
+        break;
+    case 3:
+        answer= "gamma";
+        break;
+    case 4:
+        answer= "delta";
+        break;
+  }
+  
+  
+  Default in swittch ex:
+  switch(val){
+    case "a":
+      answer = "apple";
+      break;
+    case "b":
+      answer = "bird";
+      break;
+    default:
+      answer = "stuff";
+      break;      
+  }
+  
+  Multiple cases with 1 answer example: 
+    switch(val){
+    case 1:
+    case 2:
+    case 3:
+      answer = "Low";
+      break;
+    case 4:
+    case 5:
+    case 6:
+      answer = "Mid";
+      break;
+    case 7:
+    case 8:
+    case 9:
+      answer ="High";
+      break;
+  }
+  
+  
+  Function with comparison example:   //if comparison equal.
+  function isEqual(a,b) {
+  return a === b;
+}
+
+
+  A function will exit after a return command. EX:
+  function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye")                          //this line will never execute
+}
+myFun();
+
+*You can return undefined; 
+
+
+OBject ex:
+var cat = {
+  "name": "Whiskers",
+  "legs": 4,
+  "tails": 1,
+  "enemies": ["Water", "Dogs"]
+};
+
+
+Read an object with the dot operator ex:
+var myObj = {
+  "hat": "val1",
+  "yo": "val2"
+};
+var prop1val = myObj.hat; // val1
+var prop2val = myObj.yo; // val2
+
+
+Read an object with the [] notation ex: 
+ var myObj = {
+  "Space Name": "Kirk",         //if there is a space in the name, then you must use the bracket way.
+  "More Space": "Spock"
+};
+ var ss = myObj["Space Name"]; // Kirk
+var dd = myObj['More Space']; // Spock
+
+
+  Access an object property with a variable ex:
+ var someProp = "propName";
+var myObj = {
+  propName: "Some Value"
+}
+myObj[someProp]; // "Some Value"
+
+
+Update object properties ex: 
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+ourDog.name = "Happy Camper";     //updated
+or
+ourDog["name"] = "Happy Camper"; // updated
+
+
+
+*You can also add a new property to an object just as  above but use a new name.
+*You can also delete a property ,    // delete objectName.name;
+
+
+
+Find out if a property exists in an object ex:
+var myObj = {
+  top: "hat",
+  bottom: "pants"
+};
+myObj.hasOwnProperty(top);    // true
+myObj.hasOwnProperty("middle"); // false
+
+
+FOR loop example:\
+var ourArray = [];
+for (var i = 0; i < 5; i++) {
+  ourArray.push(i);
+}
+
+ex2: 
+var arr = [10,9,8,7,6];
+for (var i=0; i < arr.length; i++) {
+   console.log(arr[i]);
+}
+
+
+While loop ex:
+var ourArray = [];
+var i = 0;
+while(i < 5) {
+  ourArray.push(i);
+  i++;
+}
+
+
+Math.random()  ,will return a random number between 0 and almost 1. 
+EX: return Math.random();
+
+Math.floor()    . will round down the number to the nearest whole number
+
+EX:
+Math.floor(Math.random() * 20);            //random number between 0-19
+
+Generate a random number between two numbers
+Math.floor(Math.random() * (max - min + 1)) + min
+
+
+Find a word inside a string ex: (regular expressions)
+var testString = "Ada Lovelace and Charles Babbage designed the first computer and the software that would have run on it.";
+var expressionToGetSoftware = /software/gi;  //find it, and ignore uppercase and lowercases
+var softwareCount = testString.match(expressionToGetSoftware).length; //output it
+
+
+This will look for and find all digits in a string ex: 
+var expression = /\d+/g;
+
+Find whitespace
+var expression = /\s+/g;
+
+Instead of using 'd' or 's' , you can use the Uppercase version of them to invert it and target everything else besides that.
+And dont need the plus. . ?
+
+
+
+
+
+//////////////////////////////////////////////////Object Oriented and Functional Programming/////////////////////////////////////////////////////////////////
+
+Constructors ex:
+var Car = function() {                              //uppercase means it is a constructor
+  this.wheels = 4;            							//this refers to the new object being created by the constructor
+  this.engines = 1;
+  this.seats = 1;
+};
+
+
+calling a constructor :
+var myCar = new Car();                  //that called the constructor above ^^ 
+
+Adding an instance (object) to my constructor:
+myCar.nickname = "yod sa";                         //now my constructor above has this one as well. 
+
+constructor with parameters ex:
+var Car = function(wheels, seats, engines) {
+  this.wheels = wheels;
+  this.seats = seats;
+  this.engines = engines;                   //these must equal the parameters in the constructor
+};
+var myCar = new Car(6, 3, 1);
+
+
+*You can make a private object in a constructor 
+Inside the constructor : var speed =10;      //this will only be availbale inside the constructor, unlike the this.speed = function(){}   --> this is a method
+
+
+Iterate over arrays with map.
+var oldArray = [1,2,3,4,5];
+var newArray = oldArray.map(function(val){
+  return val+=3;              //added 3 to all the elements in the array at the top. 
+});
+
+
+Condense array with reduce: 
+var array = [4,5,6,7,8];
+var singleVal = 0;
+
+singleVal = array.reduce(function(array, singleVal){
+  return array + singleVal;  // will add all numbers in the array and give me 30
+});
+
+
+FILTER EX:
+var oldArray = [1,2,3,4,5,6,7,8,9,10];
+
+var newArray = oldArray.filter(function(val){
+  return val <6;                                                          //this will remove all the values that are 6 or more. 
+});
+
+
+SORT EX: (smalles to biggest)
+var array = [1, 12, 21, 2];
+array.sort(function(a, b) {
+           return a-b;
+  });
+  
+Largest to smallest ex:
+var array = [1, 12, 21, 2];
+array.sort(function(a, b) {
+           return b-a;
+  });
+  
+  
+  Reverse array ex:
+  var myArray = [1, 2, 3];
+myArray.reverse();  //3,2,1
+
+
+Concatinate arrays ex:
+var oldArray = [1,2,3];
+var newArray = [];
+var concatMe = [4,5,6];
+newArray = oldArray.concat(concatMe);           // 1,2,3,4,5,6
+
+
+
+Split a string into an element for every word, or split it when it hits the character i give it. EX:
+var string = "Split me into an array";
+var array = [];
+array = string.split(' ');            // there is an space character in there.
+
+
+
+Join a string ex:
+var joinMe = ["Split","me","into","an","array"];
+var joinedString = '"';
+joinedString = joinMe.join(" ");                  // join the elements into 1 string. there is an space character here. 
+
+
+Reverse a string ex: 
+ var reverseString = "gorgoro";
+reverseString.split("").reverse().join("");
+
+
+
+Replace text by other words. EX:
+var re = /apples/gi;
+var str = 'Apples are round, and apples are juicy.';
+var newstr = str.replace(re, 'oranges');
+console.log(newstr);  // oranges are round, and oranges are juicy.

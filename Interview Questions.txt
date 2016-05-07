@@ -1,0 +1,29 @@
+HTML
+
+What is your current or preferred development environment?
+
+What is a DOCTYPE and name as many as you can?
+
+What is semantic HTML?
+
+
+
+CSS
+
+What is a css pseudoclass and give an example of usage?
+
+What is the css box model?
+
+What is the difference between display: none and visibility: hidden?
+
+What is a css float and what does it do?
+
+
+
+JS
+
+What does DOM stand for and what is it?
+
+What is the difference between == and ===?
+
+What JavaScript libraries have you used?

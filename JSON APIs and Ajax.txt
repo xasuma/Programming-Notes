@@ -1,0 +1,33 @@
+//On click function inside .ready function of jquery (click event)
+$("#getMessage").on("click", function(){
+    });
+	
+	
+	
+//Change html with click event
+$("#getMessage").on("click", function(){
+	$(".message").html("Here is the message");
+});
+
+
+//getting JSON from cat photo API
+$.getJSON("/json/cats.json", function(json) {
+  $(".message").html(JSON.stringify(json));
+});
+
+
+//getting physical location of pc inside script.
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(function(position) {
+    $("#data").html("latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude);
+  });
+}
+
+----ajax ----
+ $.ajax({
+	type: 'GET',
+	url: '',
+	success: function(data){
+		console.log('success',data);
+	}
+ });

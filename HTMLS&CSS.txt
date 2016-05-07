@@ -1,0 +1,100 @@
+HTML & CSS
+
+<h1></h1> = title (biggest) 
+<h2></h2> = subtitle
+<p></p> = paragraph
+<h2 style= "color: red">BLABLA</h2> = Colored font (Inline style)
+<!-- dsadsa -->       = will comment.
+<div></div>                   // will group things inside of it together in the code.
+
+
+<body background="link" bgproperties="fixed">      //add a background as a picture and make it fixed. 
+
+<style>
+  h2 {
+	color: red !important;                                        //the important make it to pick this one 100% over any other css.
+	background-color: grey;
+	font-size: 16px;
+	font-family: Helvetica, Sans-Serif;                                 The second one, is a second option in case the first one is not availabnle in the browser.
+	}                                                                                     Affects all h2 
+</style>
+
+<style>
+  .blue-text {                            Classes start with a period in CSS only. declarations don't use the period
+    color: blue;                         Created a .blue-text class. can be used like this: <h2 class="blue-text">CatPhotoApp</h2>
+  }
+  
+  #cat-photo-form {                                   This is an ID, therefore a #. 
+    background-color: green;
+  }
+</style>
+
+
+
+
+<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">            google font (top of code)'Lobster'
+
+<img src="url of the photo">                             add an image
+<img class="smaller-image" src="url" align="middle">              with a class included   , align to the middle of scrn.
+
+ .smaller-image {
+    width: 100px;                                                      control the width 
+  }        
+  
+  <img class="thick-green-border smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="alt text, in case the photo can't load">     2 classes in one element ex.
+  
+  
+    .thick-green-border{
+		border-color: green;
+		
+		margin: 20px;                                                         //distance between the outer of the rectangle, and therest of the page.. //if negative -(num) px, it will take all the space.
+		margin-top: 40px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		margin-left: 40px;
+		margin: 10px 20px 10px 20px;         //top,right,bottom,left
+	
+		padding: 10px;                                                      //padding is how big the rectanlge is. 
+		padding-top: 40px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		padding: 10px 20px 10px 20px;              //top,right,bottom, left. 
+	
+		border-width: 10px;                                             Border example.
+		border-style: solid;
+		border-radius: 10px; //this will round the border , you can also : 50% , for different rounding
+  }
+  
+  
+  <a href='http://freecatphotoapp.com'>cat photos</a>        will make "cat photos" an hyperlink, plot anywhere in a <p>
+  <a href=#>cat photos</a>                                                dead link
+  
+  
+  <ul>
+  <li>milk</li>
+  <li>cheese</li>                               Unordered list (bullet point)id
+  <li>cheese</li>                               Unordered list (bullet point)
+</ul>
+
+
+<ol>
+  <li>Garfield</li>
+  <li>Sylvester</li>                            Ordered list  (numbered)
+</ol>
+
+
+
+<form action="/submit-cat-photo">                                                        This will send the info in the box to a database url. 
+  <input type="text"  placeholder="cat photo URL" required>                Will make a box for the user to type something//required will require it before submitting
+  <button type="submit">Submit</button>                                             Makes a submit button for the box
+  <label><input type="radio" name="indoor-outdoor">Outdoor</label>        // Give u multiple choice option with the name "outdoor" (circle box)
+  <label><input type="checkbox" name="bla" checked> Hello</label>   // another way of the same up ^ (square box) // also this option will be checked by default
+  
+</form>     
+
+<h2 id= "theIDname">dsadass </h2>                  you can give an ID to elements
+
+color or #xxxxxx        //first 2 = red,  second 2=green, last 2= blue.      //they are hex digits. 
+color or rgb(x,x,x) 
+color or #xxx  
