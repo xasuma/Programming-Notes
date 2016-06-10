@@ -1,0 +1,23 @@
+terminal commands
+
+  git init = initialize
+  git status = check the status of changes
+  git add filename = will add a file to be committed
+  git diff filename = find the differences between the current file and the new changes made.(then add)
+  git commit -m "This is a comment" = this will commit the new changes.
+  git log = this will show you a list of all the commits in your project with a 40-long character code,author, date, time, and message.
+  git show HEAD = this will show you the head commit (last commit)
+  git checkout HEAD filename = this is kind of a control z for the last change you made to your work. 
+  git add filename1 filename2 = this will add changes to commit for more than 1 file. 
+  git reset HEAD filename = this will remove the file from the staging area before commiting.
+  git reset SHA(7) = this allows you to go back to the commit you specified. You type the first 7 characters of your SHA. 
+  
+  
+  
+  
+  
+  
+Terms: 
+  untracked file = a file that git sees, but hasnt yet tracked any changes to it.
+  head commit = is usually the most recent commit 
+  
