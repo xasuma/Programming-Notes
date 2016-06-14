@@ -1,5 +1,9 @@
 terminal commands
 
+  type 'q' if the command prompt gets stuck in "END"
+  remote repository = a repository which can be worked on simultaniusly from different locations/ppl
+  
+
   git init = initialize
   git status = check the status of changes
   git add filename = will add a file to be committed
@@ -11,6 +15,15 @@ terminal commands
   git add filename1 filename2 = this will add changes to commit for more than 1 file. 
   git reset HEAD filename = this will remove the file from the staging area before commiting.
   git reset SHA(7) = this allows you to go back to the commit you specified. You type the first 7 characters of your SHA. 
+  
+  git branch = this will check which branch you are currently on.
+  git branch newbranchName = this will create a new branch
+  git checkout branchName = will take you to that branch
+  git merge SecundaryBranch = this will merge the mentioned branch to the master branch
+  git branch -d branchName = delete that branch
+  
+  git clone originalRemoteRepo NewRepo = this will make a clone to the directory you are at
+  git fetch = will look for any changes made to the other remoterepo
   
   
   
