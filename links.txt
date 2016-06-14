@@ -64,3 +64,8 @@ Bootstrap					=	https://www.youtube.com/playlist?list=PL41lfR-6DnOovY0t3nBg8Zb6a
 Node.js					=	https://www.youtube.com/playlist?list=PLoYCgNOIyGAACzU6GliHJDp4kmOw3NFsh
 React.js 					=	https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b
 Sublime					=	https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP
+
+
+portfolio links: 
+	dribble: https://dribbble.com/pcweenies
+	behance: https://www.behance.net/KMS0079c93
