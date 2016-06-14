@@ -1,0 +1,4 @@
+jekyll = is a tool to quickly generate a static website in seconds. 
+
+gem install jekyll = this will install jekyll 
+jekyll new 'personal-website' = this will create a folder where the whole website will go inside of
