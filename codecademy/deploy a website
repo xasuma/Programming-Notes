@@ -2,3 +2,10 @@ jekyll = is a tool to quickly generate a static website in seconds.
 
 gem install jekyll = this will install jekyll 
 jekyll new 'personal-website' = this will create a folder where the whole website will go inside of
+
+
+open website folder in terminal, then git init. 
+
+git add .    = will add everything
+git remote add origin 'link of the repository'
+git push -u origin master   = this will push the files added to staging into my new repository
