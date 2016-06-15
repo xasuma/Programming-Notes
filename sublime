@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=_JFIeY46sIU
+
+-control+click to create multiple cursors in order to type something in more than one place at once
+-contro+d while hovering in a word will select that word, control+d again will select the next instance of tha word, and so on
+-shift+right click drag = allow you to write something at the beginnning of many lines
+-select the lines you want, ctrl+shift+L = will place the a cursor at the end of each line. Then right arrow to write after the end
+-select 1 line, ctrl+shift+w = will wrap the line into a tag , for multiple lines select all, ctrl+shift+L , ctrl+shift+w
+-
