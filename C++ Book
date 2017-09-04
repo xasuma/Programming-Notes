@@ -1,0 +1,64 @@
+Chapter one 
+
+#include <iostream>
+#include <process.h> //this will bring the system pause
+using namespace std;
+int main() {
+
+	//declaring variables
+	int score, rankedScore, lives;
+	char username; //only 1 character
+	float accuracy,totalAcc,acc; //here I declared 3 variables in one line
+	double fraction;
+	bool fc;
+
+	//assign a value to the variables(always do it)
+	score = 100;
+	username = 'x';
+	accuracy = 99.22;
+	fraction = 84.424435;
+	fc = true;
+
+	//constants
+	const int PERFECT = 300;  
+	const int HUNDRED = 100;
+	const int FIFTY = 50;
+	//constants are usually all caps, so you know what they are
+
+	//Enumerators (a set of unsigned int constants)
+	enum difficulty {EASY, NORMAL, HARD, INSANE}; //easy=0 normal=1 hard=2 insane=3
+	enum random {TWENTY = 20, PLUSONE, SIXTY = 60}; //plusone=21
+
+	//define variables for the enumerators
+	difficulty mydifficulty = NORMAL; //1
+	random myrandom = SIXTY; 
+
+	cout << mydifficulty + myrandom << endl; //this equals 61
+
+	cout << "Please enter your ranked score." << endl;
+	cin >> rankedScore;
+	cout << "Your ranked score is: " << rankedScore << endl;
+	rankedScore += 9999; // *=    /=     -= 
+	cout << "Now your score is " << rankedScore << ", since you got a 9999 bonus." << endl;
+
+	lives = 3;
+	++lives; // or lives++  (to add one)  or lives-- 
+	cout << "Your have " << lives << " lives." << endl;
+	int bonus = lives++ * 10;
+	cout << "Your have " << bonus << " bonus, 10 per life." << endl;
+
+	cout << "game over" << endl;
+	cout << "\nscore = " << score << endl; // New line = \n    A tab = \t 
+	cout << "7+20 = " << 7 + 20 << endl;
+	cout << "7+5.5 = " << 7 + 5.5 << endl;
+	cout << "7*2 = " << 7 /2<< endl; //this returns 3
+	cout << "7.0*2.0 = " << 7.0 / 2.0 << endl; //this returns 3.5
+
+
+
+	system("pause"); //will keep console open when using F5 only
+	return 0;
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
